@@ -1,0 +1,249 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+	width: 1750px;
+	margin: auto;
+
+
+}
+img
+{
+    height:100%;
+    weight: 100%;
+}
+div.new {
+  display: block;
+  font-size: 2.5em;
+  margin-top: -15em;
+  margin-left: 1200px;
+  margin-right: 0;
+  font-weight: bold;
+}
+.submit-btn
+{
+    background:#BD0000;
+}
+button
+{
+
+    color: #fff;
+	padding: 10px 20px;
+	font-family: poppins;
+	border-radius: 25px;
+	border-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.submit-btn:hover
+{
+    background: #8B0000;
+    border: none;
+
+
+}
+a
+{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+    color: White;
+}
+
+
+
+
+
+
+header {
+
+	background:#FFF0F5;
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 40px;
+
+}
+.nav-area li {
+	display: inline-block;
+
+}
+.nav-area li a {
+	color: #8B0000;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-weight: 700;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	border-radius: 25px;
+
+}
+.nav-area li a:hover {
+	background: #8B0000;
+
+	color: #FFFAFA;
+}
+.logo {
+	float: left;
+}
+.logo img {
+	width: 100%;
+	padding: 15px 0;
+}
+.welcome-text {
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+}
+.welcome-text h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.welcome-text h1 span {
+	color: #00fecb;
+}
+.welcome-text a {
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+}
+.welcome-text a:hover {
+	background: #fff;
+	color: #333;
+
+}
+/*resposive*/
+
+@media (max-width:600px) {
+	.wrapper {
+		width: 100%;
+	}
+	.logo {
+		float: none;
+		width: 50%;
+		text-align: center;
+		margin: auto;
+	}
+	img {
+		width: 
+	}
+	.nav-area {
+		float: none;
+		margin-top: 0;
+	}
+	.nav-area li a {
+		padding: 5px;
+		font-size: 11px;
+	}
+	.nav-area {
+		text-align: center;
+	}
+	.welcome-text {
+		width: 100%;
+		height: auto;
+		margin: 30% 0;
+	}
+	.welcome-text h1 {
+		font-size: 30px;
+	}
+}
+
+
+.wrapper form {
+    margin-top: 20px;
+}
+.wrapper form .input-box {
+    height: 40px;
+    margin: 10px 0;
+}
+form .input-box input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #FFB6C1;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+.input-box input:focus,
+.input-box input:valid {
+    border-color: #8B0000;
+}
+form .policy {
+    display: flex;
+    align-items: center;
+
+}
+form h3 {
+    color: #8B0000;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.input-box.button input {
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    background: #FFB6C1;
+    cursor: pointer;
+}
+.input-box.button input:hover {
+    background: #8B0000;
+}
+
+
+
+.contact
+{
+    background-color: #FFB6C1;
+	transition: all 0.3s ease;
+}
+.contact
+{
+
+    color: black;
+	padding: 4px 8px;
+	font-family: poppins;
+	border-radius: 20px;
+	border-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.contact:hover
+{
+    background-color: #8B0000;
+    border: none;
+	color: white;
+
+
+}
